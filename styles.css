@@ -253,7 +253,7 @@ ul li.checked::before {
   width: 7px;
 }
 
-/* Style the close button */
+/* Style the close button 
 .close {
   position: absolute;
   right: 0;
@@ -265,7 +265,7 @@ ul li.checked::before {
   background-color: #f44336;
   color: white;
 }
-
+*/
 /* Style the header */
 .header {
   background-color: #f44336;
