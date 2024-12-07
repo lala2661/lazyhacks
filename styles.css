@@ -119,3 +119,36 @@ p{
 #title-container {
     background-color: blue;
 }
+
+.marquee{
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+.marquee span{
+    width:auto;
+    height:100%;
+    margin:0;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    transform: translateX(100%);
+
+    animation: scroll-left 30s linear infinite;
+}
+
+.marquee span:nth-child(1){
+    animation-delay: 0s;
+}
+.marquee span:nth-child(2){
+    animation-delay: 0s;
+}
+@keyframes scroll-left{
+    0%{
+        transform: translateX(100%);
+    }
+
+    100%{
+        transform: translateX(-100%);
+    }
+}
