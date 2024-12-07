@@ -1,35 +1,121 @@
+.comic-neue-light {
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .comic-neue-regular {
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .comic-neue-bold {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .comic-neue-light-italic {
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .comic-neue-regular-italic {
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .comic-neue-bold-italic {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: italic;
+  }  
+
+
+body {
+    margin: 0px;
+    background-color: pink;
+}
+
 h1{
     color:rgb(0, 0, 0);
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
 }
 
-.horizontal-flex{
-    background-color:rgb(255, 255, 255);
-    width: 100%;
-    display: flex;  
-    flex-direction: row;
+p{
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
-.task-container{
+
+#task-container{
     width: 70%; 
-    height: 500px;
+    border-radius: 10px;
     padding:10px;
-
+    background-color: rgb(83, 146, 175);
+    height:100%;
 }
-.sloth-container{
-    color:red;
+
+#sloth-container{
     width: 30%; 
-    height: 500px;
     padding:10px;
-}
 
+    background-color: rgb(83, 146, 175);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+}
 
 .task{
     background-color:rgb(106, 182, 206);
     border-radius: 10px;
-    height:400px;
+    padding: 10px;
 }
 
-.pet{
-    background-color: rgb(83, 146, 175);
-    border-radius: 10px;
-    height:400px;
+
+.main {
+    padding: 30px;
+    padding-bottom: 50px;
+    margin: 40px;
+    background-color: yellow;
+    border-radius: 50px;
+    height: 500px;
+    
+}
+
+
+.horizontal-flex div {
+    margin: 0px;
+    
+}
+
+.horizontal-flex{
+    background-color:rgba(255, 255, 255, 0);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 20px;
+    height:100%;
+
+}
+
+.vertical-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    align-items: stretch;
+}
+
+
+#title-container {
+    background-color: blue;
 }
