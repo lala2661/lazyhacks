@@ -1,43 +1,12 @@
-.comic-neue-light {
-    font-family: "Comic Neue", cursive;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .comic-neue-regular {
-    font-family: "Comic Neue", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .comic-neue-bold {
-    font-family: "Comic Neue", cursive;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .comic-neue-light-italic {
-    font-family: "Comic Neue", cursive;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .comic-neue-regular-italic {
-    font-family: "Comic Neue", cursive;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .comic-neue-bold-italic {
-    font-family: "Comic Neue", cursive;
-    font-weight: 700;
-    font-style: italic;
-  }  
-
-
 body {
     margin: 0px;
-    background-color: pink;
+    background-image: url("img/greendots.png");
+    /* add gradient maybe */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
 }
 
 h1{
@@ -45,6 +14,7 @@ h1{
     font-family: "Comic Neue", cursive;
     font-weight: 700;
     font-style: normal;
+    font-size: 50px;
 }
 
 p{
@@ -55,23 +25,30 @@ p{
 
 #task-container{
     width: 70%; 
-    border-radius: 10px;
+    border-radius: 20px;
     padding:10px;
     background-color: rgb(83, 146, 175);
     height:100%;
+    border: 5px rgb(126, 70, 33) solid;
 }
 
 #sloth-container{
+    border: 5px rgb(126, 70, 33) solid;
     width: 30%; 
     padding:10px;
 
     background-color: rgb(83, 146, 175);
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     height:100%;
 }
+
+#sloth-container img{
+    width: 50%;
+}
+
 
 .task{
     background-color:rgb(106, 182, 206);
@@ -81,12 +58,15 @@ p{
 
 
 .main {
+    border: 10px rgb(126, 70, 33) solid;
+    box-shadow: 10px 5px 5px rgba(8, 87, 32, 0.5);
     padding: 30px;
     padding-bottom: 50px;
     margin: 40px;
-    background-color: yellow;
+    background-color: rgb(233, 222, 123);
     border-radius: 50px;
-    height: 500px;
+    height: 80%;
+    width: 80%;
     
 }
 
@@ -111,11 +91,14 @@ p{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    height: 100%;
+    height: 65%;
     align-items: stretch;
 }
 
 
 #title-container {
-    background-color: blue;
+    border: 5px rgb(126, 70, 33) solid;
+    background-color: rgb(255, 248, 216);
+    padding: 10px;
+    border-radius: 20px;
 }
