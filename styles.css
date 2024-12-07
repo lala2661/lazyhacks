@@ -41,8 +41,9 @@ p{
     /*background-image: url("img/bgtest.png");*/
 
 
-    height:100%;
+    height:350px;
     border: 5px rgb(126, 70, 33) solid;
+    overflow-y: scroll;
 }
 
 #sloth-container{
@@ -135,7 +136,7 @@ p{
     font-size: 20px;
     font-family: "Comic Neue", cursive;
     font-weight: 400;
-    width: 100%;
+    width: 10%;
     background-color:rgb(161, 226, 117);
 }
 .task input:hover{
@@ -146,9 +147,15 @@ p{
     font-size: 20px;
     font-family: "Comic Neue", cursive;
     font-weight: 400;
-    width: 100%;
+    width: 80%;
     background-color:rgb(185, 248, 143);
 }
+
+.task button {
+    height: 40px;
+    float:left;
+}
+
 #add-task {
     font-size: 30px;
     font-family: "Comic Neue", cursive;
