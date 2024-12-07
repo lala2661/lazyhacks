@@ -52,6 +52,7 @@ p{
     width: 600px;
     height: 400px;
     pointer-events: none;
+    transition: width 2s, height 2s, transform 2s;
 }
 #task-container{
     width: 70%; 
