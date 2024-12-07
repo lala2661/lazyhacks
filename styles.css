@@ -1,4 +1,35 @@
 h1{
-    color:aqua;
+    color:rgb(0, 0, 0);
 }
 
+.horizontal-flex{
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    display: flex;  
+    flex-direction: row;
+}
+.task-container{
+    width: 70%; 
+    height: 500px;
+    padding:10px;
+
+}
+.sloth-container{
+    color:red;
+    width: 30%; 
+    height: 500px;
+    padding:10px;
+}
+
+
+.task{
+    background-color:rgb(106, 182, 206);
+    border-radius: 10px;
+    height:400px;
+}
+
+.pet{
+    background-color: rgb(83, 146, 175);
+    border-radius: 10px;
+    height:400px;
+}
