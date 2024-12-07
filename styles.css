@@ -101,12 +101,23 @@ p{
   background-color:rgb(106, 182, 206);
   border-radius: 10px;
   padding: 20px;
-  font-size: 20px;
-  font-family: "Comic Neue", cursive;
-  font-weight: 400;
+  height: 80px;
+ 
     font-style: normal;
     list-style-type: none;
     margin: 10px;
+}
+
+.task input {
+    resize: none;
+    overflow:scroll;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    width: 100%;
+    background-color:rgb(106, 182, 206);
 }
 
 
