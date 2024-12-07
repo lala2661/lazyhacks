@@ -30,6 +30,7 @@ p{
     font-family: "Comic Neue", cursive;
     font-weight: 400;
     font-style: normal;
+    font-size: 20px;
 }
 
 #task-container{
@@ -57,14 +58,6 @@ p{
 #sloth-container img{
     width: 50%;
 }
-
-
-.task{
-    background-color:rgb(106, 182, 206);
-    border-radius: 10px;
-    padding: 10px;
-}
-
 
 .main {
     border: 10px rgb(126, 70, 33) solid;
@@ -119,7 +112,24 @@ p{
 .task{
   background-color:rgb(106, 182, 206);
   border-radius: 10px;
-  height:30px;
+  padding: 20px;
+  height: 80px;
+ 
+    font-style: normal;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.task input {
+    resize: none;
+    overflow:scroll;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    width: 100%;
+    background-color:rgb(106, 182, 206);
 }
 
 
@@ -238,14 +248,6 @@ input {
   background-color: #bbb;
 }
 
-
-
-
-.task{
-  background-color:rgb(106, 182, 206);
-  border-radius: 10px;
-  height:400px;
-}
 
 .pet{
   background-color: rgb(83, 146, 175);
