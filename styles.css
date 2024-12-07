@@ -44,7 +44,15 @@ p{
     font-style: normal;
     font-size: 20px;
 }
-
+.heart{
+    z-index: 1000;
+    position: absolute;
+    top: 80px;
+    right: 30%;
+    width: 600px;
+    height: 400px;
+    pointer-events: none;
+}
 #task-container{
     width: 70%; 
     border-radius: 20px;

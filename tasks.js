@@ -6,6 +6,8 @@ let button = document.getElementById("task-button");
 let sloth = document.getElementById("sloth");
 let taskList = document.getElementById("task-list")
 let counter = document.getElementById("counter");
+document.getElementById("heart").style.visibility = "hidden"; 
+
 
 let tasklist = [
     "your new quest"
@@ -36,7 +38,10 @@ function buttonAddEventListener(button){
         let parent = button.parentElement;
         parent.remove();
         sloth.src = "img/happyguy.png";
+        document.getElementById("heart").style.visibility = "visible"; 
         setTimeout(() => { sloth.src = "img/guy.png";}, 2000);
+        setTimeout(() => { document.getElementById("heart").style.visibility = "hidden";}, 2000);
+
         slothHappiness++;
         counter.innerHTML = slothHappiness;
     })
