@@ -120,6 +120,12 @@ p{
     background-color:rgb(106, 182, 206);
 }
 
+#add-task {
+    font-size: 30px;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    text-align: center;
+}
 
 /* include the padding and border in an element's total width and height */
 * {
