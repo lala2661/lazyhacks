@@ -5,6 +5,7 @@ let task = document.getElementsByClassName("task")[1];
 let button = document.getElementById("task-button");
 let sloth = document.getElementById("sloth");
 let taskList = document.getElementById("task-list")
+let counter = document.getElementById("counter");
 
 let tasklist = [
     "your new quest"
@@ -36,7 +37,8 @@ function buttonAddEventListener(button){
         parent.remove();
         sloth.src = "img/happyguy.png";
         setTimeout(() => { sloth.src = "img/guy.png";}, 2000);
-        
+        slothHappiness++;
+        counter.innerHTML = slothHappiness;
     })
 }
 
