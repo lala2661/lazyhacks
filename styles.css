@@ -15,9 +15,9 @@ h1{
     font-weight: 700;
     font-style: normal;
     font-size: 70px;
-    margin-top:15px;
+    margin-top:10px;
     margin-left:15px;
-    margin-bottom:-15px;
+    margin-bottom:-10px;
     background-image: linear-gradient(#b6f76c, #43b46e);
     background-clip:text;
     color:rgba(255, 0, 0, 0);
@@ -37,8 +37,11 @@ p{
     width: 70%; 
     border-radius: 20px;
     padding:10px;
-    background-color: rgb(83, 146, 175);
-    height:300px;
+    background-color: rgb(111, 175, 68);
+    /*background-image: url("img/bgtest.png");*/
+
+
+    height:100%;
     border: 5px rgb(126, 70, 33) solid;
     overflow-y: scroll;
 }
@@ -54,10 +57,13 @@ p{
     align-items: center;
     justify-content: center;
     height:100%;
+    
+    background-image: url("img/bgtest.png");
 }
 
 #sloth-container img{
-    width: 50%;
+    width: 60%;
+
 }
 
 .main {
@@ -111,7 +117,7 @@ p{
 
 
 .task{
-  background-color:rgb(106, 182, 206);
+  background-color:rgb(163, 228, 120);
   border-radius: 10px;
   padding: 20px;
   height: 80px;
@@ -119,6 +125,7 @@ p{
     font-style: normal;
     list-style-type: none;
     margin: 10px;
+
 }
 
 .task input {
@@ -130,7 +137,7 @@ p{
     font-family: "Comic Neue", cursive;
     font-weight: 400;
     width: 100%;
-    background-color:rgb(106, 182, 206);
+    background-color:rgb(163, 228, 120);
 }
 
 #add-task {
@@ -138,6 +145,15 @@ p{
     font-family: "Comic Neue", cursive;
     font-weight: 700;
     text-align: center;
+    background-color:rgb(163, 228, 120);
+}
+
+#add-task:hover {
+    font-size: 30px;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    text-align: center;
+    background-color:rgb(202, 255, 167);
 }
 
 /* include the padding and border in an element's total width and height */
