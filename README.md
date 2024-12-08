@@ -1,0 +1,5 @@
+# Work, Sloth!
+
+Our website is a simple to-do list application that features the reward of making a little, digital sloth happy when you complete a task. There is a lot of instant gratification nowadays that distracts students from their studies. The problem is so large and we know that nobody can come close to solving it. So, we decided to compete against these distractions by gamifying completing tasks in a wholesome way. The website has a simple UI where you can add and complete tasks and a counter for the total tasks completed. The total number of tasks completed is saved in local storage so that users can keep their progress. We decided to go with a cheerful, pastel theme because that would be what would most appeal to us! To further motivate the user (and add to the silliness), there is a scroll of motivational quotes at the top. Overall, we hope that our product helps users manage their tasks while enjoying it.
+
+![image](https://github.com/user-attachments/assets/7c19fb3b-088d-46f7-93ae-c0ba7f3d0763)
