@@ -22,9 +22,22 @@ h1{
     color:rgba(255, 0, 0, 0);
     filter: drop-shadow(2px 2px 0px #ffffff) drop-shadow(-2px -2px 0px #ffffff) drop-shadow(2px -2px 0px #ffffff)drop-shadow(-2px 2px 0px #ffffff)drop-shadow(1px 1px 3px #bb9868);
 
+}
+h2{
+    color:rgb(0, 0, 0);
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 90px;
+    margin-top:10px;
+    margin-bottom:-10px;
+    text-align: center;
+    background-image: linear-gradient(#c2f76c, #7ace43);
+    background-clip:text;
+    color:rgba(255, 0, 0, 0);
+    filter: drop-shadow(2px 2px 0px #ffffff) drop-shadow(-2px -2px 0px #ffffff) drop-shadow(2px -2px 0px #ffffff)drop-shadow(-2px 2px 0px #ffffff)drop-shadow(1px 1px 3px #cca46b);
 
 }
-
 p{
     font-family: "Comic Neue", cursive;
     font-weight: 400;
@@ -247,7 +260,7 @@ ul li.checked::before {
   width: 7px;
 } */
 
-/* Style the close button */
+/* Style the close button 
 .close {
   position: absolute;
   right: 0;
@@ -259,7 +272,7 @@ ul li.checked::before {
   background-color: #f44336;
   color: white;
 }
-
+*/
 /* Style the header */
 .header {
   background-color: #f44336;
@@ -415,4 +428,6 @@ input {
         transform: translateX(-100%);
     }
 }
+
+
 
