@@ -48,12 +48,15 @@ function buttonAddEventListener(button){
         sloth.src = "img/happyguy.png";
         document.getElementById("heart").style.visibility = "visible"; 
         setTimeout(() => { sloth.src = "img/guy.png";}, 2000);
-        setTimeout(() => { document.getElementById("heart").style.visibility = "hidden";}, 2000);
+        
+
+        setTimeout(() => { document.getElementById("heart").style.visibility = "hidden";},1000);
 
         slothHappiness++;
         localStorage.setItem("happiness", slothHappiness)
         counter.innerHTML = slothHappiness;
     })
 }
+
 
 
