@@ -4,6 +4,7 @@ let taskContainer = document.getElementById("task-container");
 let task = document.getElementsByClassName("task")[1];
 let button = document.getElementById("task-button");
 let sloth = document.getElementById("sloth");
+let taskList = document.getElementById("task-list")
 
 let tasklist = [
     "your new quest"
@@ -22,7 +23,8 @@ addTaskBtn.addEventListener("click", (e) => {
     newInput.value = "your new quest";
     newTask.appendChild(newButton);
     newTask.appendChild(newInput);
-    taskContainer.appendChild(newTask);
+    taskList.prepend(newTask)
+    
     
 })
 
