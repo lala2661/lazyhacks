@@ -136,13 +136,32 @@ p{
     font-size: 20px;
     font-family: "Comic Neue", cursive;
     font-weight: 400;
+    margin-left:15px;
     width: 80%;
-    background-color:rgb(163, 228, 120);
+    background-color:rgb(161, 226, 117);
+}
+.task input:hover{
+    resize: none;
+    overflow:scroll;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    width: 80%;
+    background-color:rgb(185, 248, 143);
 }
 
 .task button {
     height: 40px;
     float:left;
+    background-color:rgb(220, 255, 191);
+    border-radius:50px;
+}
+.task button:hover {
+    float:left;
+    background-color:rgb(187, 255, 109);
+    border-radius:50px;
 }
 
 #add-task {
@@ -423,7 +442,7 @@ input {
     display: inline-block;
     transform: translateX(100%);
 
-    animation: scroll-left 40s linear infinite;
+    animation: scroll-left 150s linear infinite;
 }
 
 .marquee span:nth-child(1){
