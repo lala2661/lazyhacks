@@ -7,9 +7,16 @@ let sloth = document.getElementById("sloth");
 let taskList = document.getElementById("task-list")
 let counter = document.getElementById("counter");
 
-let tasklist = [
+
+let taskArray = [
     "your new quest"
 ]
+
+window.addEventListener("load", (event) => {
+    slothHappiness = localStorage.getItem("happiness");
+    counter.innerHTML = slothHappiness;
+});
+
 
 addTaskBtn.addEventListener("click", (e) => {
     const newTask = document.createElement("li");
@@ -24,9 +31,10 @@ addTaskBtn.addEventListener("click", (e) => {
     newInput.value = "your new quest";
     newTask.appendChild(newButton);
     newTask.appendChild(newInput);
-    taskList.prepend(newTask)
+    taskList.prepend(newTask);
     
-    
+    localStorage.setItem("tasklist", taskArray);
+
 })
 
 buttonAddEventListener(button)
@@ -38,6 +46,7 @@ function buttonAddEventListener(button){
         sloth.src = "img/happyguy.png";
         setTimeout(() => { sloth.src = "img/guy.png";}, 2000);
         slothHappiness++;
+        localStorage.setItem("happiness", slothHappiness)
         counter.innerHTML = slothHappiness;
     })
 }
