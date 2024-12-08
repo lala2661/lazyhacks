@@ -38,8 +38,9 @@ p{
     border-radius: 20px;
     padding:10px;
     background-color: rgb(83, 146, 175);
-    height:100%;
+    height:300px;
     border: 5px rgb(126, 70, 33) solid;
+    overflow-y: scroll;
 }
 
 #sloth-container{
