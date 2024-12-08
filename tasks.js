@@ -1,7 +1,13 @@
+let slothHappiness = 0;
 let addTaskBtn = document.getElementById("add-task");
 let taskContainer = document.getElementById("task-container");
 let task = document.getElementsByClassName("task")[1];
 let button = document.getElementById("task-button");
+let sloth = document.getElementById("sloth");
+
+let tasklist = [
+    "your new quest"
+]
 
 addTaskBtn.addEventListener("click", (e) => {
     const newTask = document.createElement("li");
@@ -25,7 +31,10 @@ buttonAddEventListener(button)
 function buttonAddEventListener(button){
     button.addEventListener("click", function() {
         let parent = button.parentElement;
-        parent.remove()
+        parent.remove();
+        sloth.src = "img/happyguy.png";
+        setTimeout(() => { sloth.src = "img/guy.png";}, 2000);
+        
     })
 }
 
